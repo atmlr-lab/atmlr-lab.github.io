@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Research</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="ML Research Lab, Home, IIT Hyderabad">
+      <meta name="author" content="">
+      <!-- Le styles -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+      <link href="css/theme.css" rel="stylesheet">
+      
+      <script>
+MathJax={
+tex:{
+	inlineMath:[['$', '$'],['\\(', '\\)']]
+},
+svg:{
+	fontCache:'global'
+}
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
+      
+   </head>
+   <body>
+      <div class="container">
+         <header class="jumbotron subhead" id="overview">
+            <h1>ML Research Lab, IIT-H</h1>
+            <h4>Supervised by Dr J. Saketha Nath</h4>
+         </header>
+         <div class="masthead">
+            <div class="navbar">
+               <div class="navbar-inner">
+                  <div class="container">
+                     <ul class="nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="publications.html">Publications</a></li>
+                        <li class="active"><a href="#">Reading Group</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <hr>
+	      
+      <div class="span12">
+	  <p>
+	     <b>We summarise our readings on this webpage. Our reading group schedule will be updated <a href="https://docs.google.com/spreadsheets/d/1Tigdk3-eI2gRmdnd8J0w0O8BgPFtQwYBx3O5Ff4cdNs/edit?usp=sharing">here</a>. 
+	  </p>
+	  <br/>
+       </div>
+	      
+         <div class="row-fluid">
+            <div class="span3 bs-docs-sidebar" id="navparent">
+               <ul class="nav nav-list bs-docs-sidenav" data-spy="affix" data-offset-top="200" data-offset-bottom="260">
+                  <li><a href="#statement"> ELBO </a></li>
+		  <li><a href="#nano"> Importance Sampling </a></li>
+               </ul>
+            </div>
+            <div class="span8 offset1">
+               <section id="statemet">
+                  <div class="page-header">                     
+                     <button class="collapsible" id="rcorners2"><h5>ELBO</h5></button>
+                     <p style="font-weight:normal"; class="collapsible_content">
+      	            $\log p_{\theta}(x)= E_{z\sim q_{\phi}(z|x)}[\log p_{\theta}(x)]$ since $p_{\theta}(x)$ does not depend on z <br>
+      			     
+            		    $=E_{z\sim q_{\phi}(z|x)}[\log\frac{p_{\theta}(x|z)p_{\theta}(z)}{p_{\theta}(z|x)}]$ Using Bayes rule <br>
+            			     
+            		    since $p_{\theta}(x|z)p_{\theta}(z)=p_{\theta}(x,z)=p_{\theta}(z|x)p_{\theta}(x)$ <br>
+            			     
+            		    Multiply divide by approximate posterior $q_{\phi}(z|x)$ <br>
+            			     
+            		    $=E_{z\sim q_{\phi}(z|x)}[\log\frac{p_{\theta}(x|z)p_{\theta}(z)q_{\phi}(z|x)}{p_{\theta}(z|x)q_{\phi}(z|x)}]$ <br>
+            			     
+            		    $=E_{z\sim q_{\phi}(z|x)}[log(p_{\theta}(x|z))]+D_{KL}(q_{\phi}(z|x)||p_{\theta}(z|x))-D_{KL}(q_{\phi}(z|x)||p_{\theta}(z))$  
+            		     </p>
+                  </div>
+
+               </section>
+		
+	       <section id="nano">
+                  <div class="page-header">
+                     <button class="collapsible" id="rcorners2"><h5>Importance Sampling</h5></button>
+                     <p style="font-weight:normal"; class="collapsible_content">
+	            We want to estimate $\mathbb{E}_p[f(X)]$. We don't have samples from $p$ but we have samples from some auxiliary distribution $q$ from
+	            which we can easily sample & q has bigger support than p so that q is not 0 even where p is 0.<br>
+		    $\int f(x)p(x)dx=\int f(x)\frac{p(x)}{q(x)}q(x)dx=\mathbb{E}_q[f(x)\alpha(x)]=\sum_{i=1}^Mf(x_i)\alpha(x_i)$ where $x_i\sim q$
+		     </p>
+                  </div>
+
+               </section>
+		    
+               
+            </div>
+         </div>
+      </div>
+      <footer id="footer">
+         <div class="container-fluid">
+            <div class="row-fluid">
+               <div class="span5">
+                  <h3>Contact Information</h3>
+                  <p>Dr. J. Saketha Nath</p>
+                  <p>Associate Professor, IIT Hyderabad</p>
+                  <p>Phone: (040) 2301 7020 (internal: 7020)</p>
+        <p><a href="http://www.iith.ac.in/~saketha">Homepage</a></p> 
+                  <p><a href="mailto:saketha@cse.iith.ac.in">Email</a></p>
+           
+               </div>
+               <div class="span2">
+                  <img src = "thumbs/tmp_logo.jpg" alt="ML-research-lab-logo"/>
+               </div>
+               <div class="span5">
+                  <h3>Address</h3>
+                  <p>Dept. of Computer Science and Engg.</p>
+                  <p>Room No. 519, C block, IIT Hyderabad</p>
+                  <p>Kandi, Sangareddy. 502285</p>
+        <p><a href="https://github.com/Dr-J-Saketha-Nath-ML-group">Github</a></p>      
+               </div>
+            </div>
+         </div>
+      <p><I>This website's code is adapted from a publicly available <a href="https://github.com/photonlines/Research-Lab-Website">template</a>. For any concerns/feedback related to the website, please email cs18m20p100002*at*iith.ac.in</I></p>
+      </footer>
+
+      <!-- Le javascript
+         ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="js/jquery-1.9.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script>
+         $(document).ready(function() {
+             $(document.body).scrollspy({
+                 target: "#navparent"
+             });
+         });
+         
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight){
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          } 
+        });
+      }
+      </script>
+
+   </body>
+</html>
