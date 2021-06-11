@@ -67,7 +67,14 @@ svg:{
       	              	The paper proposes Stochastic Weight Averaging(SWA) as a new procedure for optimization. While Most of the ensembling methods perform ensembling in the 
 			     model space, SWA performs ensembling in the weight space. SWA is experimentally found to improve the generalization performance of neural networks.
             		     </p>
-                     <!--<button class="collapsible" id="rcorners2"><h5>ELBO</h5></button>
+                     
+                  </div>
+
+               </section>
+		
+	       <section id="nano">
+                  <div class="page-header">
+                     <button class="collapsible" id="rcorners2"><h5>ELBO</h5></button>
                      <p style="font-weight:normal"; class="collapsible_content">
       	            $\log p_{\theta}(x)= E_{z\sim q_{\phi}(z|x)}[\log p_{\theta}(x)]$ since $p_{\theta}(x)$ does not depend on z <br>
       			     
@@ -80,22 +87,10 @@ svg:{
             		    $=E_{z\sim q_{\phi}(z|x)}[\log\frac{p_{\theta}(x|z)p_{\theta}(z)q_{\phi}(z|x)}{p_{\theta}(z|x)q_{\phi}(z|x)}]$ <br>
             			     
             		    $=E_{z\sim q_{\phi}(z|x)}[log(p_{\theta}(x|z))]+D_{KL}(q_{\phi}(z|x)||p_{\theta}(z|x))-D_{KL}(q_{\phi}(z|x)||p_{\theta}(z))$  
-            		     </p>-->
+            		     </p>
                   </div>
 
                </section>
-		
-	       <!--<section id="nano">
-                  <div class="page-header">
-                     <button class="collapsible" id="rcorners2"><h5>Importance Sampling</h5></button>
-                     <p style="font-weight:normal"; class="collapsible_content">
-	            We want to estimate $\mathbb{E}_p[f(X)]$. We don't have samples from $p$ but we have samples from some auxiliary distribution $q$ from
-	            which we can easily sample & q has bigger support than p so that q is not 0 even where p is 0.<br>
-		    $\int f(x)p(x)dx=\int f(x)\frac{p(x)}{q(x)}q(x)dx=\mathbb{E}_q[f(x)\alpha(x)]=\sum_{i=1}^Mf(x_i)\alpha(x_i)$ where $x_i\sim q$
-		     </p>
-                  </div>
-
-               </section>-->
 		    
                
             </div>
