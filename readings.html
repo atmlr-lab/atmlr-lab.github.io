@@ -56,148 +56,23 @@ svg:{
          <div class="row-fluid">
             <div class="span3 bs-docs-sidebar" id="navparent">
                <ul class="nav nav-list bs-docs-sidenav" data-spy="affix" data-offset-top="200" data-offset-bottom="260">
-		<li><a href="#sess12"> 27.08.21 </a></li>
-		<li><a href="#sess11"> 20.08.21 </a></li>
-		<li><a href="#sess10"> 13.08.21 </a></li>       
-		<li><a href="#sess9"> 06.08.21 </a></li>
-		<li><a href="#sess8"> 30.07.21 </a></li>
-                <li><a href="#sess7"> 23.7.21 </a></li>
-		<li><a href="#sess6"> 16.7.21 </a></li>
-		<li><a href="#sess5"> 9.7.21 </a></li>
-		<li><a href="#sess4"> 2.7.21 </a></li>
-		<li><a href="#sess3"> 25.6.21 </a></li>
-		<li><a href="#sess2"> 18.6.21 </a></li>  
-		<li><a href="#sess1"> 11.6.21 </a></li>
+		<li><a href="#sess1"> 8.7.22 </a></li>
 		
                </ul>
             </div>
             <div class="span8 offset1">
-	       <section id="sess12">
+	       <section id="sess1">
                   <div class="page-header">     
-		     <button class="collapsible" id="rcorners2"><h5> Style Transfer by Relaxed Optimal Transport & Self-Similarity (CVPR'19)</h5></button>
+		     <button class="collapsible" id="rcorners2"><h5> Optimal Transport for structured data with application on graphs (ICML'19)</h5></button>
                      <p style="font-weight:normal"; class="collapsible_content">
-		     The paper uses Optimal Transport(relaxed EMD loss) to generate output image having the same style as the given style image.
+		     	Proposes Fused Gromov Wasserstein that jointly exploits feature & structure information. 
 		     </p>
                   </div>
 
                </section>
 		    
-	      <section id="sess11">
-                  <div class="page-header">     
-		     <button class="collapsible" id="rcorners2"><h5> Kernel Mean Matching for Content Addressability of GANs (ICML'19)</h5></button>
-                     <p style="font-weight:normal"; class="collapsible_content">
-      	             The paper tries to address the problem of Content Addressability in Implicit models where the output images are desired to be similar to a set of input images.
-	             For this, they optimize over latent vectors so as to match RKHS mean embeddings of the given set of images and the generated images.
-		     </p>
-                  </div>
-
-               </section>	
-		    
-		<section id="sess10">
-                  <div class="page-header">     
-		     <button class="collapsible" id="rcorners2"><h5>Wasserstein Barycenter for Multi-Source Domain Adaptation (CVPR'21)</h5></button>
-                     <p style="font-weight:normal"; class="collapsible_content">
-      	             A popular application of OT is in domain adaptation where source data is first mapped to test data using OT & then a classifier is trained on the transported source data. 
-		     The paper focuses on Domain Adaptation when there are multiple sources. For this, they first compute Wasserstein Barycenter from all source data distributions & then solve another
-		     OT problem between barycenter and the test distribution.
-		     </p>
-                  </div>
-
-               </section>			    
-		<section id="sess9">
-                  <div class="page-header">     
-		     <button class="collapsible" id="rcorners2"><h5>Neural Topic Model via Optimal Transport (ICLR'21)</h5></button>
-                     <p style="font-weight:normal"; class="collapsible_content">
-      	             The paper performs topic modeling by minimizing the OT distance between distributions over words and that over topics.
-		     </p>
-                  </div>
-
-               </section>		
-		    
-		<section id="sess8">
-                  <div class="page-header">     
-		     <button class="collapsible" id="rcorners2"><h5>Model Fusion via Optimal Transport (NeurIPS'20)</h5></button>
-                     <p style="font-weight:normal"; class="collapsible_content">
-      	             Lack of correspondence between neurons discourages fusing neural network models via directly averaging their weights. The proposed approach for fusing equi-depth neural
-	             networks first aligns the neurons between the two models using Optimal Transport and then performs weight averaging.
-		     </p>
-                  </div>
-
-               </section>
-		    
-		<section id="sess7">
-                  <div class="page-header">     
-		     <button class="collapsible" id="rcorners2"><h5>Learning Generative Models across Incomparable Spaces (ICML'19)</h5></button>
-                     <p style="font-weight:normal"; class="collapsible_content">
-      	             Traditional GAN-based approaches do not work when reference and generated distributions are over incomparable spaces(of different data dimensionality/of different data type).
-		     The paper proposes a GAN variant using Gromov Wasserstein metric (a popularly used OT metric for incomparable spaces) with appropriate regularization to address this issue.
-		     </p>
-                  </div>
-
-               </section>
-		    
-		<section id="sess6">
-                  <div class="page-header">     
-		     <button class="collapsible" id="rcorners2"><h5>Representation Learning via Adversarially Contrastive OT (ICML '20)</h5></button>
-                     <p style="font-weight:normal"; class="collapsible_content">
-      	              	The paper performs contrastive learning by maximizing the Optimal Transport distance between the distributions associated with positive and negative examples.
-		     </p>
-                  </div>
-
-               </section> 		
-		    
-		<section id="sess5">
-                  <div class="page-header">     
-		     <button class="collapsible" id="rcorners2"><h5>Generalized Energy Based Models (ICLR '21)</h5></button>
-                     <p style="font-weight:normal"; class="collapsible_content">
-      	              	The paper presents an example where GANs & Energy-based models(exponential family models) fail to properly capture the underlying data distribution.
-			GEBMs, a combination of GANs & Energy-based models, is proposed as an importance-sampling kind of approach to alleviate the issue.
-		     </p>
-                  </div>
-
-               </section> 
-		    
-		<section id="sess4">
-                  <div class="page-header">     
-		     <button class="collapsible" id="rcorners2"><h5>Geometric Dataset Distances via Optimal Transport (NeurIPS '20)</h5></button>
-                     <p style="font-weight:normal"; class="collapsible_content">
-      	              	The paper uses Optimal Transport metric to come up with distances between datasets. The results show correlation with transfer learning hardness.
-		     </p>
-                  </div>
-
-               </section> 		
-		    
-		<section id="sess3">
-                  <div class="page-header">     
-		     <button class="collapsible" id="rcorners2"><h5>Riemannian Convex Potential Maps (ICML '21)</h5></button>
-                     <p style="font-weight:normal"; class="collapsible_content">
-      	              	The paper proposes convex potential maps(functions) backed by Riemannian Optimal Transport theory as a universal model for generative modeling on arbitrary 
-			Riemannian manifolds.
-		     </p>
-                  </div>
-
-               </section>   
-		   
-		<section id="sess2">
-                  <div class="page-header">     
-		     <button class="collapsible" id="rcorners2"><h5>Robust Optimal Transport with Applications in Generative Modeling and Domain Adaptation (NeurIPS '20)</h5></button>
-                     <p style="font-weight:normal"; class="collapsible_content">
-      	              	<a href="https://drive.google.com/file/d/1Nr0U7ba_pHt5WrlTYoQQuFsJ8b89ZMaj/view?usp=sharing"><b>Link to the presentation</b></a>
-            		     </p>
-                  </div>
-
-               </section>    
-               <section id="sess1">
-                  <div class="page-header">     
-		     <button class="collapsible" id="rcorners2"><h5>Averaging Weights Leads to Wider Optima and Better Generalization (UAI '18)</h5></button>
-                     <p style="font-weight:normal"; class="collapsible_content">
-      	              	The paper proposes Stochastic Weight Averaging(SWA) as a new procedure for optimization. While Most of the ensembling methods perform ensembling in the 
-			     model space, SWA performs ensembling in the weight space. SWA is experimentally found to improve the generalization performance of neural networks.
-            		     </p>
-                  </div>
-               </section>    
-            </div>
-		 
+	      
+            </div> 
          </div>
       </div>
       <footer id="footer">
