@@ -4,23 +4,6 @@ layout: default
 ---
 <body>
    <div class="container">
-      <header class="jumbotron subhead" id="overview">
-         <h1>ML Research Lab, IIT-H</h1>
-         <h4>Supervised by Dr J. Saketha Nath</h4>
-      </header>
-      <div class="masthead">
-         <div class="navbar">
-            <div class="navbar-inner">
-               <div class="container">
-                  <ul class="nav">
-                     <li class="active"><a href="#">Home</a></li>
-                     <li><a href="highlights.html">Highlights</a></li>
-                     <li><a href="readings.html">Reading Group</a></li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-      </div>
       <div class="row-fluid">
          <div class="span12">
             <div id="main-carousel" class="carousel slide">
@@ -80,7 +63,7 @@ layout: default
             
             <div class="span4 feature-item">
                <h5> <span class="date">Dec 2023</span> </h5>
-               <h4 class="feature-heading";>
+               <h4 class="feature-heading">
                   <!--<a href="https://unsplash.com/photos/rTZW4f02zY8">-->
                   "MMD-regularized Unbalanced Optimal Transport" <p style="color:red;">Accepted at TMLR!</p>
                </h4>
@@ -95,7 +78,7 @@ layout: default
             
             <div class="span4 feature-item">
                <h5> <span class="date">May 2023</span> </h5>
-               <h4 class="feature-heading";>
+               <h4 class="feature-heading">
                   <!--<a href="https://unsplash.com/photos/rTZW4f02zY8">-->
                   "Empirical Optimal Transport between Conditional Distributions" pre-print released.
                </h4>
@@ -109,7 +92,7 @@ layout: default
             
             <div class="span4 feature-item">
                <h5> <span class="date">Jan 2022</span> </h5>
-               <h4 class="feature-heading";>
+               <h4 class="feature-heading">
                   <!--<a href="https://unsplash.com/photos/rTZW4f02zY8">-->
                   "Improving Attribution Methods by Learning Submodular Functions" <p style="color:red;">Accepted at AISTATS 2022!</p>
                </h4>
@@ -122,7 +105,7 @@ layout: default
             </div>
             <div class="span4 feature-item">
                <h5> <span class="date"> Jan, 2021 </span> </h5>
-               <h4 class="feature-heading";>
+               <h4 class="feature-heading">
                   <!--<a href="https://unsplash.com/photos/CPmrdbbpnXg">-->
                   "Joint Learning of Hyperbolic Label Embeddings for Hierarchical Multi-label Classification" <p style="color:red;">Accepted at EACL 2021!</p>
                </h4>
@@ -135,7 +118,7 @@ layout: default
 
             <div class="span4 feature-item">
                   <h5> <span class="date">Sep 2020</span> </h5>
-                  <h4 class="feature-heading";>
+                  <h4 class="feature-heading">
                      <!--<a href="http://mechanical.illinois.edu/news/miljkovic-pleased-join-%E2%80%98powerhouse%E2%80%99-illinois">-->
                      "Statistical Optimal Transport posed as Learning Kernel Embedding"<p style="color:red;">Accepted at NeurIPS 2020!</p>
                   </h4>
@@ -149,32 +132,5 @@ layout: default
          </div>
       </div>
    </div>
-   
-   <footer id="footer">
-      <div class="container-fluid">
-         <div class="row-fluid">
-            <div class="span5">
-               <h3>Contact Information</h3>
-               <p>Dr. J. Saketha Nath</p>
-               <p>Associate Professor, IIT Hyderabad</p>
-               <p>Phone: (040) 2301 7020 (internal: 7020)</p>
-      <p><a href="http://www.iith.ac.in/~saketha">Homepage</a></p> 
-               <p><a href="mailto:saketha@cse.iith.ac.in">Email</a></p>
-         
-            </div>
-            <div class="span2">
-               <img src = "thumbs/tmp_logo.jpg" alt="ML-research-lab-logo"/>
-            </div>
-            <div class="span5">
-               <h3>Address</h3>
-               <p>Dept. of Computer Science and Engg.</p>
-               <p>Room No. 519, C block, IIT Hyderabad</p>
-               <p>Kandi, Sangareddy. 502285</p>
-      <p><a href="https://github.com/Dr-J-Saketha-Nath-ML-group">Github</a></p>      
-            </div>
-         </div>
-      </div>
-   <p><I>This website's code is adapted from a publicly available <a href="https://github.com/photonlines/Research-Lab-Website">template</a>. For any concerns/feedback related to the website, please email cs18m20p100002*at*iith.ac.in</I></p>
-   </footer>
 </body>
 
