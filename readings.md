@@ -1,5 +1,5 @@
 ---
-title: Readings | ML Lab, IITH
+title: Readings
 layout: default
 ---
 <div class="span12">

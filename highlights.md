@@ -1,5 +1,5 @@
 ---
-title: ML Lab, IITH
+title: Highlights
 layout: default
 ---
 <hr />
