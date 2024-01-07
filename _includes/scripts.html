@@ -2,3 +2,26 @@
 <script src="/js/jquery-1.9.1.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 <script> $('#main-carousel').carousel(); </script>
+<script>
+$(document).ready(function() {
+      $(document.body).scrollspy({
+         target: "#navparent"
+      });
+});
+</script>
+<script>
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+for (i = 0; i < coll.length; i++) {
+coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+    content.style.maxHeight = null;
+    } else {
+    content.style.maxHeight = content.scrollHeight + "px";
+    } 
+});
+}
+</script>
