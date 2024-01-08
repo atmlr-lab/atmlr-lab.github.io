@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+	  <title> {{ page.title }} | ML Research Lab, IITH</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="ML Research Lab, Home, IIT Hyderabad">
+      <meta name="author" content="">
+      <!-- Le styles -->
+	  {% include css.html %}
+      <script>
+MathJax={
+tex:{
+	inlineMath:[['$', '$'],['\\(', '\\)']]
+},
+svg:{
+	fontCache:'global'
+}
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+   </head>
+   <body>
+   <div class="container">
+	   {% include header.html %}
+       {{content}}
+   </div>
+	   {% include footer.html %}
+	   {% include scripts.html %}
+   </body>
+</html>
