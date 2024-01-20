@@ -21,7 +21,7 @@ layout: default
    <li><a class="subhead" href="#2007_c"> 2007 </a></li>
    <li><a class="subhead" href="#2006_c"> 2006 </a></li>
 	<li><a href="#refereed"> Journal Publications</a></li>
-	<li><a class="subhead" href="#2023"> 2023 </a></li>
+	<li><a class="subhead" href="#2024"> 2024 </a></li>
    <li><a class="subhead" href="#2015"> 2015 </a></li>
    <li><a class="subhead" href="#2013"> 2013 </a></li>
    <li><a class="subhead" href="#2011"> 2011</a></li>
@@ -45,6 +45,19 @@ layout: default
       <div class="page-header">
          <h3>Conference Publications</h3>
       </div>	
+	<section id="2024">
+         <h3>2024</h3>
+         <br/>            
+         <div class="row-fluid">
+                <div class="span4">
+                   <h4 style="font-size: 17px;">Empirical Optimal Transport between Conditional Distributions</h4>
+                   <br/>
+                   <p style="font-family:monospace;"><b>Piyushi Manupriya, Rachit Keerti Das, Sayantan Biswas, J Saketha Nath</b></p>
+                   <a href="https://arxiv.org/pdf/2305.15901.pdf"><b><mark style="background-color: white; color:red;">AISTATS</mark></b></a>
+                </div>
+                 
+         </div>
+   </section>
 	
 	<section id="2022_c">
          <h3>2022</h3>
@@ -358,14 +371,11 @@ layout: default
          <h3>Journal Publications</h3>
       </div>
 
-	<section id="2023">
+	<section id="2024">
 	<br/>
-	<h3>2023</h3>
+	<h3>2024</h3>
 	<br/>
 	
-	
-	 <h3>2023</h3>
-	<br/>
 	<div class="row-fluid">
 	<div class="span4">
 	
@@ -496,33 +506,6 @@ layout: default
        </section>
        <hr>
 	
-       <section id="inreview">
-          <div class="page-header">
-             <h3>Under Review and Pre-prints</h3>
-          </div>
-
-          <section id="2023_r">
-             <h3>2023</h3>
-             <br/>            
-             <div class="row-fluid"> 
-
-                <div class="span4">
-                   
-                   <img class="publications-thumb" src="thumbs/cot.jpg" alt="SEA-NN"  style="width:200px;height:200px;">
-                   
-                </div>
-                <div class="span8">
-                   <h4 style="font-size: 17px;">Empirical Optimal Transport between Conditional Distributions</h4>
-                   <br/>
-                   <p style="font-family:monospace;"><b>Piyushi Manupriya, Rachit Keerti Das, Sayantan Biswas, Shivam Chandhok, J Saketha Nath</b></p>
-                   <a href="https://arxiv.org/pdf/2305.15901.pdf"><b>Pre-print</b></a>
-                 
-                </div>
-             </div>
-
-          </section>                  		  
-          
-       </section>
     </div>
     </div>
 </div>
