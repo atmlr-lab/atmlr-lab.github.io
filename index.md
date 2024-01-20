@@ -17,7 +17,7 @@ layout: default
                   </div>
 
                   <div class="item">
-                     <img src="images/cot.png" class="carousel-image" alt="">                      
+                     <img src="images/cot.jpg" class="carousel-image" alt="">                      
                      <div class="carousel-caption">
                         <h4>AISTATS '24: Conditional OT</h4>
                         <!-- -->

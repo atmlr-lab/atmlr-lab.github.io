@@ -50,7 +50,7 @@ layout: default
          <br/>            
          <div class="row-fluid">
             <div class="span4">
-               <img class="publications-thumb" src="thumbs/cot.png" alt="AISTATS24" style="width:200px;height:200px;">
+               <img class="publications-thumb" src="thumbs/cot.jpg" alt="AISTATS24" style="width:200px;height:200px;">
             </div>
             <div class="span8">
                <h4 style="font-size: 17px;">Empirical Optimal Transport between Conditional Distributions</h4>
