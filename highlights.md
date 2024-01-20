@@ -396,11 +396,7 @@ layout: default
 	</section>
 	
       <section id="2015">
-         <br/>
-	<h3>2023</h3>
-	<br/>
-	 
-	
+         <br/>	 
          <h3>2015</h3>
          <br/>
          <div class="row-fluid">
