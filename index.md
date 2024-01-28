@@ -65,7 +65,7 @@ layout: default
                <h5> <span class="date">Jan 2024</span> </h5>
                <h4 class="feature-heading">
                   <!--<a href="https://unsplash.com/photos/rTZW4f02zY8">-->
-                  "Empirical Optimal Transport between Conditional Distributions" <p style="color:red;">Accepted at AISTATS 2024!</p>
+                  "Consistent Optimal Transport with Empirical Conditional Measures" <p style="color:red;">Accepted at AISTATS 2024!</p>
                </h4>
                
                <p>
@@ -133,4 +133,3 @@ layout: default
       </div>
    </div>
 </body>
-
