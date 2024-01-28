@@ -60,6 +60,20 @@ layout: default
                <h2 class="centered">Recent News</h2>
                <hr>
             </div>
+
+            <div class="span4 feature-item">
+               <h5> <span class="date">Jan 2024</span> </h5>
+               <h4 class="feature-heading">
+                  <!--<a href="https://unsplash.com/photos/rTZW4f02zY8">-->
+                  "Empirical Optimal Transport between Conditional Distributions" <p style="color:red;">Accepted at AISTATS 2024!</p>
+               </h4>
+               
+               <p>
+                  Read the paper at 
+                  <a href="https://arxiv.org/pdf/2305.15901.pdf">here</a>.
+               </p>
+               <br/>
+            </div> 
             
             <div class="span4 feature-item">
                <h5> <span class="date">Dec 2023</span> </h5>
@@ -69,26 +83,12 @@ layout: default
                </h4>
                
                <p>
-                  Read the pre-print
+                  Read the paper at 
                   <a href="https://arxiv.org/pdf/2011.05001.pdf">here</a>.
                </p>
                <br/>
             </div>    
-            
-            
-            <div class="span4 feature-item">
-               <h5> <span class="date">May 2023</span> </h5>
-               <h4 class="feature-heading">
-                  <!--<a href="https://unsplash.com/photos/rTZW4f02zY8">-->
-                  "Empirical Optimal Transport between Conditional Distributions" <p style="color:red;">Accepted at AISTATS 2024!</p>
-               </h4>
-               
-               <p>
-                  Read the pre-print
-                  <a href="https://arxiv.org/pdf/2305.15901.pdf">here</a>.
-               </p>
-               <br/>
-            </div>             
+                        
             
             <div class="span4 feature-item">
                <h5> <span class="date">Jan 2022</span> </h5>

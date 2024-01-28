@@ -390,7 +390,7 @@ layout: default
 	<h4 style="font-size: 17px;">MMD-Regularized Unbalanced Optimal Transport</h4>
 	<br/>
 	<p style="font-family:monospace;"><b>Piyushi Manupriya, Jagarlapudi SakethaNath, Pratik Jawanpuria</b></p>
-	<a href="https://arxiv.org/abs/2011.05001"><mark style="background-color: white; color:red;"><b>TMLR</b></mark></b></a>
+	<a href="https://arxiv.org/abs/2011.05001"><mark style="background-color: white; color:red;"><b>TMLR</b></mark></a>
 	</div>
 	</div>	
 	</section>
