@@ -98,7 +98,7 @@ layout: default
                </h4>
                
                <p>
-                  Read the pre-print
+                  Read the paper at 
                   <a href="https://arxiv.org/pdf/2104.09073.pdf">here</a>.
                </p>
                <br/>
@@ -111,7 +111,7 @@ layout: default
                </h4>
                
                <p>
-                  Read the paper <a href="https://arxiv.org/pdf/2101.04997.pdf">here</a>.
+                  Read the paper at <a href="https://arxiv.org/pdf/2101.04997.pdf">here</a>.
                </p>
                <br/>
             </div>
@@ -124,7 +124,7 @@ layout: default
                   </h4>
                   
                   <p> 
-                     Read the paper 
+                     Read the paper at 
                   <a href="https://arxiv.org/pdf/2002.03179.pdf">here</a>.
                   </p>
                   <br/>

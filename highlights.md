@@ -37,8 +37,8 @@ layout: default
 	<div class="span8 offset1">
 	
 	<section id="Other">
-	<b>2021:</b> PhD student selected for the <mark style="background-color: white; color:red;"><b>Google PhD Fellowship</b></mark> and the 
-	<mark style="background-color: white; color:red;"><b>Prime Minister's Research Fellowship</b></mark>.
+	<b>2021:</b> PhD student selected for the <mark style="background-color: white; color:red;"><b>Google PhD Fellowship</b></mark> & 
+	<mark style="background-color: white; color:red;"><b>PMRF</b></mark>.
 	
 	</section>
 	
