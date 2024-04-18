@@ -51,7 +51,7 @@ layout: default
       <div class="container-fluid">
          <div class="row-fluid marketing">
             <div class="span12">
-               <h4>This website belongs to Machine Learning research lab supervised by <a href="http://www.iith.ac.in/~saketha">Dr J. Saketha Nath</a> at the Indian Institute of Technology Hyderabad.  
+               <h4>This website belongs to the ATMLR (Applied Theory for Machine Learning Research) lab supervised by <a href="http://www.iith.ac.in/~saketha">Dr J. Saketha Nath</a> at the Indian Institute of Technology Hyderabad.  
                </h4>
                <br/>
             </div>
