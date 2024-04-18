@@ -37,8 +37,8 @@ layout: default
 	<div class="span8 offset1">
 	
 	<section id="Other">
-	<b>2021:</b> PhD student selected for the <mark style="background-color: white; color:red;"><b>Google PhD Fellowship</b></mark> & 
-	<mark style="background-color: white; color:red;"><b>PMRF</b></mark>.
+	<b>2021:</b> Our PhD student selected as one among the 4 Indian receipients of the early-stage (4 Yrs fellowship) <mark style="background-color: white; color:red;"><b><a href="https://research.google/outreach/phd-fellowship/recipients/?category=2021">Google PhD Fellowship '21</a></b></mark>; also selected for 
+	<mark style="background-color: white; color:red;"><b><a href="https://pmrf.in">PMRF '21</a></b></mark>.
 	
 	</section>
 	
