@@ -19,7 +19,7 @@ layout: default
                   <div class="item">
                      <img src="images/cot.jpg" class="carousel-image" alt="">                      
                      <div class="carousel-caption">
-                        <h4>AISTATS '24: Conditional OT</h4>
+                        <h4>AISTATS 2024: Consistent Optimal Transport with Empirical Conditional Measures</h4>
                         <!-- -->
                         <p></p>
                      </div>
@@ -27,7 +27,7 @@ layout: default
                   <div class="item">
                      <img src="images/uot.jpg" class="carousel-image" alt="">                      
                      <div class="carousel-caption">
-                        <h4>TMLR '24: MMD-Regularized UOT</h4>
+                        <h4>TMLR 2024: MMD-Regularized Unbalanced Optimal Transport</h4>
                         <!-- -->
                         <p></p>
                      </div>
