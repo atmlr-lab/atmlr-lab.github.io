@@ -41,11 +41,11 @@ layout: default
       <div class="carousel-inner">
          <div class="item active">
             <img src="lab_pics/IMG20240504171046.jpg" class="carousel-image" alt="">
-            <h4>UG '24 batch.</h4>
+            <p style="color:white">UG '24 batch.</p>
          </div>
          <div class="item">
             <img src="lab_pics/30Apr2024at1142.jpg" class="carousel-image" alt="">                      
-            <h4>Convex Optimization: Algorithms '24 batch.</h4>
+            <p style="color:white">Convex Optimization: Algorithms '24 batch.</p>
          </div>
       </div>
 
