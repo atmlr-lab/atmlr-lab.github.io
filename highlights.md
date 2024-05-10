@@ -52,6 +52,10 @@ layout: default
             </div>
          </div>
       </div>
+
+      <a class="left carousel-control" href="#main-carousel" data-slide="prev">‹</a>
+      <a class="right carousel-control" href="#main-carousel" data-slide="next">›</a>
+
 	</div>
 
    <div class="page-header">
