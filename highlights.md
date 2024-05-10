@@ -37,6 +37,18 @@ layout: default
 	<div class="span8 offset1">
 	
 	<section id="Other">
+   <div id="main-carousel" class="carousel slide">
+      <div class="carousel-inner">
+         <div class="item active">
+            <img src="lab_pics/IMG20240504171046.jpg" class="carousel-image" alt="">
+            <div class="carousel-caption">
+               UG '24 batch.
+               <p></p>
+            </div>
+         </div>
+      </div>
+	</div>
+
    <div class="page-header">
       <h3>Awards</h3>
    </div>
@@ -49,7 +61,7 @@ layout: default
          <mark style="background-color: white; color:red;"><b><a href="https://pmrf.in">PMRF '21</a></b></mark>.
 
    </div>
-	
+
 	</section>
 	
     <section id="published">
