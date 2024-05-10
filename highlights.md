@@ -41,21 +41,16 @@ layout: default
       <div class="carousel-inner">
          <div class="item active">
             <img src="lab_pics/IMG20240504171046.jpg" class="carousel-image" alt="">
-            <div class="carousel-caption">
-               <h4>UG '24 batch.</h4>
-            </div>
+            <h4>UG '24 batch.</h4>
          </div>
          <div class="item">
             <img src="lab_pics/30Apr2024at1142.jpg" class="carousel-image" alt="">                      
-            <div class="carousel-caption">
-               <h4>Convex Optimization: Algorithms '24 batch.</h4>
-            </div>
+            <h4>Convex Optimization: Algorithms '24 batch.</h4>
          </div>
       </div>
 
       <a class="left carousel-control" href="#main-carousel" data-slide="prev">‹</a>
-      <a class="right carousel-control" href="#main-carousel" data-slide="next">›</a>
-
+      
 	</div>
 
    <div class="page-header">
