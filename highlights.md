@@ -43,18 +43,14 @@ layout: default
             <img src="lab_pics/IMG20240504171046.jpg" class="carousel-image" alt="">
             <div class="carousel-caption">
                <h4>UG '24 batch.</h4>
-               <p></p>
             </div>
          </div>
-
          <div class="item">
             <img src="lab_pics/30Apr2024at1142.jpg" class="carousel-image" alt="">                      
             <div class="carousel-caption">
                <h4>Convex Optimization: Algorithms '24 batch.</h4>
-               <p></p>
             </div>
          </div>
-
       </div>
 	</div>
 

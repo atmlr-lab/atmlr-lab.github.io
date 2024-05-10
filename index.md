@@ -15,7 +15,6 @@ layout: default
                         <p></p>
                      </div>
                   </div>
-
                   <div class="item">
                      <img src="images/cot.jpg" class="carousel-image" alt="">                      
                      <div class="carousel-caption">
@@ -40,7 +39,6 @@ layout: default
                         <p></p>
                      </div>
                   </div>
-                  
                </div>
                <a class="left carousel-control" href="#main-carousel" data-slide="prev">‹</a>
                <a class="right carousel-control" href="#main-carousel" data-slide="next">›</a>
@@ -60,21 +58,18 @@ layout: default
                <h2 class="centered">Recent News</h2>
                <hr>
             </div>
-
             <div class="span4 feature-item">
                <h5> <span class="date">Jan 2024</span> </h5>
                <h4 class="feature-heading">
                   <!--<a href="https://unsplash.com/photos/rTZW4f02zY8">-->
                   "Consistent Optimal Transport with Empirical Conditional Measures" <p style="color:red;">Accepted at AISTATS 2024!</p>
                </h4>
-               
                <p>
                   Read the paper at 
                   <a href="https://arxiv.org/pdf/2305.15901.pdf">here</a>.
                </p>
                <br/>
             </div> 
-            
             <div class="span4 feature-item">
                <h5> <span class="date">Dec 2023</span> </h5>
                <h4 class="feature-heading">
