@@ -37,8 +37,11 @@ layout: default
 	<div class="span8 offset1">
 	
 	<section id="Other">
-   <div id="main-carousel" class="carousel slide">
+
+   <div class="page-header">
       <h3>Moments</h3>
+   </div>
+   <div id="main-carousel" class="carousel slide">
       <div class="carousel-inner">
          <div class="item active">
             <img src="lab_pics/IMG20240504171046.jpg" class="carousel-image" alt="">
@@ -55,8 +58,7 @@ layout: default
    <div class="page-header">
       <h3>Awards</h3>
    </div>
-	<h5>2021</h5>
-   <br/>
+	<h4>2021</h4>
    <div class="row-fluid">
          <h4 style="font-size: 17px;"><mark style="background-color: white; color:red;">PhD Fellowship</mark></h4>
          <br/>
