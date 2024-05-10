@@ -38,6 +38,7 @@ layout: default
 	
 	<section id="Other">
    <div id="main-carousel" class="carousel slide">
+      <h3>Moments</h3>
       <div class="carousel-inner">
          <div class="item active">
             <img src="lab_pics/IMG20240504171046.jpg" class="carousel-image" alt="">
@@ -48,15 +49,13 @@ layout: default
             <p style="color:white">Convex Optimization: Algorithms '24 batch.</p>
          </div>
       </div>
-
       <a class="left carousel-control" href="#main-carousel" data-slide="prev">‹</a>
-      
 	</div>
 
    <div class="page-header">
       <h3>Awards</h3>
    </div>
-	<h3>2021</h3>
+	<h5>2021</h5>
    <br/>
    <div class="row-fluid">
          <h4 style="font-size: 17px;"><mark style="background-color: white; color:red;">PhD Fellowship</mark></h4>
