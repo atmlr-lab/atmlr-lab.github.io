@@ -59,6 +59,18 @@ layout: default
                <hr>
             </div>
             <div class="span4 feature-item">
+               <h5> <span class="date">May 2024</span> </h5>
+               <h4 class="feature-heading">
+                  <!--<a href="https://unsplash.com/photos/rTZW4f02zY8">-->
+                  "Submodular Framework for Structured-Sparse Optimal Transport" <p style="color:red;">Accepted at ICML 2024!</p>
+               </h4>
+               <p>
+                  Read the paper at 
+                  <a href="https://arxiv.org/pdf/2406.04914">here</a>.
+               </p>
+               <br/>
+            </div> 
+            <div class="span4 feature-item">
                <h5> <span class="date">Jan 2024</span> </h5>
                <h4 class="feature-heading">
                   <!--<a href="https://unsplash.com/photos/rTZW4f02zY8">-->
@@ -74,7 +86,7 @@ layout: default
                <h5> <span class="date">Dec 2023</span> </h5>
                <h4 class="feature-heading">
                   <!--<a href="https://unsplash.com/photos/rTZW4f02zY8">-->
-                  "MMD-regularized Unbalanced Optimal Transport" <p style="color:red;">Accepted at TMLR!</p>
+                  "MMD-regularized Unbalanced Optimal Transport" <p style="color:red;">Accepted at TMLR 2024!</p>
                </h4>
                
                <p>
