@@ -88,22 +88,18 @@ layout: default
                   <!--<a href="https://unsplash.com/photos/rTZW4f02zY8">-->
                   "MMD-regularized Unbalanced Optimal Transport" <p style="color:red;">Accepted at TMLR 2024!</p>
                </h4>
-               
                <p>
                   Read the paper at 
                   <a href="https://arxiv.org/pdf/2011.05001.pdf">here</a>.
                </p>
                <br/>
-            </div>    
-                        
-            
+            </div>      
             <div class="span4 feature-item">
                <h5> <span class="date">Jan 2022</span> </h5>
                <h4 class="feature-heading">
                   <!--<a href="https://unsplash.com/photos/rTZW4f02zY8">-->
                   "Improving Attribution Methods by Learning Submodular Functions" <p style="color:red;">Accepted at AISTATS 2022!</p>
                </h4>
-               
                <p>
                   Read the paper at 
                   <a href="https://arxiv.org/pdf/2104.09073.pdf">here</a>.
@@ -116,13 +112,11 @@ layout: default
                   <!--<a href="https://unsplash.com/photos/CPmrdbbpnXg">-->
                   "Joint Learning of Hyperbolic Label Embeddings for Hierarchical Multi-label Classification" <p style="color:red;">Accepted at EACL 2021!</p>
                </h4>
-               
                <p>
                   Read the paper at <a href="https://arxiv.org/pdf/2101.04997.pdf">here</a>.
                </p>
                <br/>
             </div>
-
             <div class="span4 feature-item">
                   <h5> <span class="date">Sep 2020</span> </h5>
                   <h4 class="feature-heading">
