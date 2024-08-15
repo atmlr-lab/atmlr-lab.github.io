@@ -58,6 +58,7 @@ layout: default
                <h2 class="centered">Recent News</h2>
                <hr>
             </div>
+            <div class="span12">
             <div class="span4 feature-item">
                <h5> <span class="date">May 2024</span> </h5>
                <h4 class="feature-heading">
@@ -94,8 +95,9 @@ layout: default
                </p>
                <br/>
             </div>
+            </div>
 
-            
+            <div class="span12">
             <div class="span4 feature-item">
                <h5> <span class="date">Jan 2022</span> </h5>
                <h4 class="feature-heading">
@@ -132,6 +134,7 @@ layout: default
                   </p>
                   <br/>
             </div>               
+            </div>
          </div>
       </div>
    </div>
