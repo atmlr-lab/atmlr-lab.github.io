@@ -1,1 +1,5 @@
 name: ML Research Lab
+collections:
+  publications:
+    output: true
+
