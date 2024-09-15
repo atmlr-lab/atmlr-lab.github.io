@@ -35,11 +35,8 @@ layout: default
                      <img src="images/sea-nn.jpg" class="carousel-image" alt="">                      
                      <div class="carousel-caption">
                         <h4>AISTATS 2022: Submodular Ensembled Attribution for Neural Networks</h4>
-                        <!-- -->
                         <p></p>
                      </div>
- Test
-
                  </div>
                </div>
                <a class="left carousel-control" href="#main-carousel" data-slide="prev">‹</a>
@@ -102,5 +99,5 @@ Read the paper at
 </div>
 </div>
 </div>
-   </div>
+</div>
 </body>
