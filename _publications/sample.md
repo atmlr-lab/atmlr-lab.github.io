@@ -1,6 +1,8 @@
 ---
 title: Sample Publication
 authors: Author A, Author B
+venue: "Conference A"
+date: 2025-01-15
 picurl: "http://example.com"
 codeurl: "http://github.com"
 pdfurl: "http://google.com"
