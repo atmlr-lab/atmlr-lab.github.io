@@ -48,8 +48,13 @@ layout: default
       <div class="container-fluid">
          <div class="row-fluid marketing">
             <div class="span12">
-               <h4>This website belongs to the ATMLR lab supervised by <a href="http://www.iith.ac.in/~saketha">Dr J. SakethaNath</a>.  
-               </h4>
+			<h4> This website belongs to the ATMLR lab supervised by <a href="http://www.iith.ac.in/~saketha">Dr J. SakethaNath</a>. </h4>
+			   <h5> Our lab specializes in: 
+			   <ol>
+			   <li> Formulating novel machine learning settings and problems, which may have diverse applications, as optimization problems. </li>
+			   <li> Analysis using tools from statistical learning theory. </li>
+			   <li> Building scalable algorithms for solving the novel formulations</li>.</ol> </h5>
+
                <br/>
             </div>
             <div class="row-fluid">
@@ -90,8 +95,7 @@ Read the paper at
     <p style="color:red;">Accepted at {{publication.venue}}!</p>
 </h4>
 <p>
-Read the paper at 
-<a href="{{publication.pdfurl}}">here</a>.
+Read the paper <a href="{{publication.pdfurl}}">here</a>.
 </p>
 <br/>
 </div> 
