@@ -83,7 +83,8 @@ layout: default
                <h4 style="font-size: 17px;">Submodular Framework for Structured-Sparse Optimal Transport</h4>
                <br/>
                <p style="font-family:monospace;"><b>Piyushi Manupriya, Pratik Jawanpuria, Karthik S. Gurumoorthy, J Saketha Nath, Bamdev Mishra</b></p>
-               <a href="https://arxiv.org/pdf/2406.04914f"><b><mark style="background-color: white; color:red;">ICML</mark></b></a>
+               <a href="https://arxiv.org/pdf/2406.04914f"><b><mark style="background-color: white; color:red;">ICML</mark></b></a> | 
+               <a href="https://github.com/piyushi-0/Sparse-UOT"><b>Code</b></a>
             </div> 
          </div>
       </section>
@@ -95,10 +96,11 @@ layout: default
                <img class="publications-thumb" src="thumbs/cot.jpg" alt="AISTATS24" style="width:200px;height:200px;">
             </div>
             <div class="span8">
-               <h4 style="font-size: 17px;">Empirical Optimal Transport between Conditional Distributions</h4>
+               <h4 style="font-size: 17px;">Consistent Optimal Transport with Empirical Conditional Measures</h4>
                <br/>
                <p style="font-family:monospace;"><b>Piyushi Manupriya, Rachit Keerti Das, Sayantan Biswas, J Saketha Nath</b></p>
-               <a href="https://arxiv.org/pdf/2305.15901.pdf"><b><mark style="background-color: white; color:red;">AISTATS</mark></b></a>
+               <a href="https://arxiv.org/pdf/2305.15901.pdf"><b><mark style="background-color: white; color:red;">AISTATS</mark></b></a> | 
+               <a href="https://github.com/atmlr-lab/COT"><b>Code</b></a>
             </div>           
          </div>
       </section>

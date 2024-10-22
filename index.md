@@ -48,16 +48,18 @@ layout: default
       <div class="container-fluid">
          <div class="row-fluid marketing">
             <div class="span12">
-			<h4> This website belongs to the ATMLR lab supervised by <a href="http://www.iith.ac.in/~saketha">Dr J. SakethaNath</a>. </h4>
+			   <h4> This website belongs to the ATMLR lab supervised by <a href="http://www.iith.ac.in/~saketha">Dr J. SakethaNath</a>. </h4>
             <br/>
-			   <div style="background-color:rgba(10, 99, 10, 0.1);text-align:center;font-family:serif"> <h6><u>Our Specializations:</u><h6>
-                  <br/>
-                  Formulating novel machine learning settings and problems, which may have diverse applications, as optimization problems, 
-                  <br/>
-                  Analysing using tools from statistical learning theory,
-                  <br/>
-                  Devising scalable algorithms for solving these novel formulations.
-            </div>
+			      <div style="background-color:rgba(10, 99, 10, 0.1);text-align:center;font-family:serif"> <h6><u>Our Specializations:</u><h6>
+                  <ul>
+                     <li>Formulating novel machine learning settings and problems, which may have diverse applications, as optimization problems, 
+                     </li>
+                     <li>Analysing using tools from statistical learning theory,
+                     </li>
+                     <li>Devising scalable algorithms for solving these novel formulations.
+                     </li>
+                  </ul>
+               </div>
             </div>
             <div class="row-fluid">
                <hr>
