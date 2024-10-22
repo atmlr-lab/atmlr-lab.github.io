@@ -65,7 +65,6 @@ layout: default
          <br/>
          Our PhD student selected as one among the 4 Indian receipients of the early-stage (4 Yrs fellowship) <mark style="background-color: white; color:red;"><b><a href="https://research.google/outreach/phd-fellowship/recipients/?category=2021">Google PhD Fellowship '21</a></b></mark>; also selected for 
          <mark style="background-color: white; color:red;"><b><a href="https://pmrf.in">PMRF '21</a></b></mark>.
-
    </div>
 	</section>
    <section id="published">
@@ -87,10 +86,7 @@ layout: default
                <a href="https://github.com/piyushi-0/Sparse-UOT"><b>Code</b></a>
             </div> 
          </div>
-      </section>
-	   <section id="2024_c">
-         <h3>2024</h3>
-         <br/>            
+         <hr>        
          <div class="row-fluid">
             <div class="span4">
                <img class="publications-thumb" src="thumbs/cot.jpg" alt="AISTATS24" style="width:200px;height:200px;">
