@@ -56,7 +56,6 @@ layout: default
                   <li> Devising scalable algorithms for solving these novel formulations.</li>
                </ul>
             </p>
-            <br/>
             </div>
             <div class="row-fluid">
                <hr>
