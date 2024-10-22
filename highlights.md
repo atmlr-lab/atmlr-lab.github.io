@@ -7,7 +7,6 @@ layout: default
   <div class="span3 bs-docs-sidebar" id="navparent">
   <ul class="nav nav-list bs-docs-sidenav" data-spy="affix" data-offset-top="200" data-offset-bottom="260">
    <li><a href="#published">Conference Publications</a></li>
-   <li><a class="subhead" href="#2024_b"> 2024 </a></li>
    <li><a class="subhead" href="#2024_c"> 2024 </a></li>
 	<li><a class="subhead" href="#2022_c"> 2022 </a></li>
 	<li><a class="subhead" href="#2021_c"> 2021 </a></li>
@@ -71,7 +70,7 @@ layout: default
       <div class="page-header">
          <h3>Conference Publications</h3>
       </div>	
-	   <section id="2024_b">
+	   <section id="2024_c">
          <h3>2024</h3>
          <br/>            
          <div class="row-fluid">
