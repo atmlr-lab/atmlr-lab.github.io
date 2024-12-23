@@ -56,7 +56,13 @@ layout: default
 	</div>
 
    <div class="page-header">
-      <h3>Awards</h3>
+      <h3>Recognitions</h3>
+   </div>
+	<h4>2024</h4>
+   <div class="row-fluid">
+         <h4 style="font-size: 17px;"><mark style="background-color: white; color:red;">Invited at ICLR '25</mark></h4>
+         <br/>
+         Our TMLR '24 paper is among the 100 TMLR papers invited for poster presentation at <a href="https://blog.iclr.cc/2024/08/22/iclr2025-tmlr-partnership/">ICLR '25.</a>
    </div>
 	<h4>2021</h4>
    <div class="row-fluid">
