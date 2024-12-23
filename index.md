@@ -16,6 +16,14 @@ layout: default
                      </div>
                   </div>
                   <div class="item">
+                     <img src="images/aamas25.jpg" class="carousel-image" alt="">                      
+                     <div class="carousel-caption">
+                        <h4>AAMAS 2025: Multi-agent Multi-armed Bandits with Minimum Reward Guarantee Fairness</h4>
+                        <!-- -->
+                        <p></p>
+                     </div>
+                  </div>
+                  <div class="item">
                      <img src="images/cot.jpg" class="carousel-image" alt="">                      
                      <div class="carousel-caption">
                         <h4>AISTATS 2024: Consistent Optimal Transport with Empirical Conditional Measures</h4>

@@ -7,6 +7,7 @@ layout: default
   <div class="span3 bs-docs-sidebar" id="navparent">
   <ul class="nav nav-list bs-docs-sidenav" data-spy="affix" data-offset-top="200" data-offset-bottom="260">
    <li><a href="#published">Conference Publications</a></li>
+   <li><a class="subhead" href="#2025_c"> 2025 </a></li>
    <li><a class="subhead" href="#2024_c"> 2024 </a></li>
 	<li><a class="subhead" href="#2022_c"> 2022 </a></li>
 	<li><a class="subhead" href="#2021_c"> 2021 </a></li>
@@ -76,6 +77,21 @@ layout: default
       <div class="page-header">
          <h3>Conference Publications</h3>
       </div>	
+      <section id="2025_c">
+         <h3>2025</h3>
+         <br/>
+         <div class="row-fluid">
+            <div class="span4">
+               <img class="publications-thumb" src="thumbs/aamas25.jpg" alt="AAMAS25" style="width:200px;height:200px;">
+            </div>
+            <div class="span8">
+               <h4 style="font-size: 17px;">Multi-agent Multi-armed Bandits with Minimum Reward Guarantee Fairness</h4>
+               <br/>
+               <p style="font-family:monospace;"><b>Piyushi Manupriya, Himanshu, J Saketha Nath, Ganesh Ghalme</b></p>
+               <a href="https://drive.google.com/file/d/1lHb9OfBI3elBQNjezrvqfZXP_Y0458Bm/view"><b><mark style="background-color: white; color:red;">AAMAS</mark></b></a> | 
+               <a href="https://github.com/piyushi-0/Fair-MAMAB"><b>Code</b></a>
+            </div> 
+         </div>
 	   <section id="2024_c">
          <h3>2024</h3>
          <br/>            
@@ -87,7 +103,7 @@ layout: default
                <h4 style="font-size: 17px;">Submodular Framework for Structured-Sparse Optimal Transport</h4>
                <br/>
                <p style="font-family:monospace;"><b>Piyushi Manupriya, Pratik Jawanpuria, Karthik S. Gurumoorthy, J Saketha Nath, Bamdev Mishra</b></p>
-               <a href="https://arxiv.org/pdf/2406.04914f"><b><mark style="background-color: white; color:red;">ICML</mark></b></a> | 
+               <a href="https://arxiv.org/pdf/2406.04914"><b><mark style="background-color: white; color:red;">ICML</mark></b></a> | 
                <a href="https://github.com/piyushi-0/Sparse-UOT"><b>Code</b></a>
             </div> 
          </div>
