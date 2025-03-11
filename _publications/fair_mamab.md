@@ -5,7 +5,7 @@ venue: "AAMAS 2025"
 date: 2024-12-20
 picurl: "http://example.com"
 codeurl: "http://github.com/Piyushi-0/Fair-MAMAB"
-pdfurl: "https://drive.google.com/file/d/1lHb9OfBI3elBQNjezrvqfZXP_Y0458Bm/view" 
+pdfurl: "https://arxiv.org/pdf/2502.15240" 
 layout: paper
 ---
 We investigate the problem of maximizing social welfare while ensuring fairness in a multi-agent multi-armed bandit (MA-MAB) setting. In this problem, a centralized decision-maker takes actions over time, generating random rewards for various agents. Our goal is to maximize the sum of expected cumulative rewards,  a.k.a. social welfare, while ensuring that each agent receives an expected reward that is at least a constant fraction of the maximum possible expected reward.
