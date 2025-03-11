@@ -88,7 +88,7 @@ layout: default
                <h4 style="font-size: 17px;">Multi-agent Multi-armed Bandits with Minimum Reward Guarantee Fairness</h4>
                <br/>
                <p style="font-family:monospace;"><b>Piyushi Manupriya, Himanshu, J Saketha Nath, Ganesh Ghalme</b></p>
-               <a href="https://drive.google.com/file/d/1lHb9OfBI3elBQNjezrvqfZXP_Y0458Bm/view"><b><mark style="background-color: white; color:red;">AAMAS</mark></b></a> | 
+               <a href="https://arxiv.org/pdf/2502.15240"><b><mark style="background-color: white; color:red;">AAMAS</mark></b></a> | 
                <a href="https://github.com/piyushi-0/Fair-MAMAB"><b>Code</b></a>
             </div> 
          </div>
